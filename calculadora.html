@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css" media="screen" />
+  </head>
+
+  <body>
+    <center>
+
+    <label class="cajaDeTexto"></label><br>
+    <input id="calculo" name="" value="" type="text"></input>
+    <p></p>
+
+    <table border ="1">
+
+      <tr>
+        <td><input value="1" type="text" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="2" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="3" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="+" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+      </tr>
+      <tr>
+        <td><input value="4" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="5" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="6" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="-" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+      </tr>
+      <tr>
+        <td><input value="7" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="8" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="9" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="*" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+      </tr>
+      <tr>
+        <td><input value="0" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="." type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="=" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+        <td><input value="/" type="button" onclick="escribirNumero(value);" onkeydown="escribirNumero(value);"></td>
+      </tr>
+    </table>
+  </center>
+
+  <script src="calculadora.js"></script>
+  </script>
+  </body>
+</html>
